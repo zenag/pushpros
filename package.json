@@ -1,0 +1,21 @@
+{
+  "name": "smaple_application",
+  "version": "1.0.0",
+  "description": "Node JS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf identity && node index.js"
+  },
+  "engineStrict": true,
+  "author": "jaiganesh seetharaman",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
